@@ -51,6 +51,12 @@ e.g.
     <td>Sets the NODE_ENV environment variable</td>
     <td><tt>development</tt></td>
   </tr>
+  <tr>
+    <td><tt>['node_env']['env']['NODE_BCRYPT_SALT']</tt></td>
+    <td>String</td>
+    <td>Sets the NODE_BCRYPT_SALT environment variable (used to encrypt passwords)</td>
+    <td><tt>salt</tt></td>
+  </tr>
 </table>
 
 Usage
