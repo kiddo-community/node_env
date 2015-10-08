@@ -6,3 +6,4 @@ default[:node_env][:env][:NODE_CONFIG_DIR] = default[:node_env][:path] + "/curre
 default[:node_env][:env][:NODE_ENV] = 'development'
 default[:node_env][:env][:NODE_BCRYPT_SALT] = 'salt'
 default[:node_env][:env][:NODE_JWT_KEY] = 'jwtkey'
+default[:node_env][:env][:NODE_SESSION_SECRET] = 'session'

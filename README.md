@@ -63,6 +63,12 @@ e.g.
     <td>Sets the NODE_JWT_KEY environment variable (used by JWT)</td>
     <td><tt>jwtkey</tt></td>
   </tr>
+  <tr>
+    <td><tt>['node_env']['env']['NODE_SESSION_SECRET']</tt></td>
+    <td>String</td>
+    <td>Sets the NODE_SESSION_SECRET environment variable (used by session)</td>
+    <td><tt>session</tt></td>
+  </tr>
 </table>
 
 Usage
