@@ -18,11 +18,3 @@ directory node[:node_env][:path] do
   group node[:node_env][:user]
   recursive true
 end
-
-nodejs_npm 'pm2' do
-  options ['--g']
-end
-
-nodejs_npm 'grunt-cli' do
-  options ['--g']
-end
